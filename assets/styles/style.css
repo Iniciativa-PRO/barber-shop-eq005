@@ -1,0 +1,6 @@
+@import url('./abstract/_reset.css');
+@import url('./abstract/_variaveis.css');
+
+body {
+    font-size: 100%;
+}
