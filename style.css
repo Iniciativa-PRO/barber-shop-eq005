@@ -21,7 +21,8 @@
 .header_logo {
     background: url(assets/images/Iniciativa-pro-logo3.svg);
     background-repeat: no-repeat;
-    width: 50%;
+    width: 48%;
+    height: 40px;
 }
 
 .header_menu {
