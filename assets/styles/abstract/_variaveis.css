@@ -1,0 +1,11 @@
+:root {
+    /* ==== Cores ==== */	
+    --branco: #ffffff;
+
+    /* ==== Peso Fontes ==== */
+    --fina: 100;
+    --baixo: 400;
+    --medio: 500;
+    --alto: 700;
+}
+
