@@ -4,3 +4,30 @@
 body {
     font-size: 100%;
 }
+
+.header_container {
+    background-color: #333131;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.header_content {
+    background-color: #333131;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.header_logo {
+    background: url(../image/Iniciativa-pro-logo3.svg);
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 45%;
+}
+
+.header_menu {
+    color:#FFF;
+    margin-right: 5px;
