@@ -1,11 +1,29 @@
 :root {
     /* ==== Cores ==== */	
     --branco: #ffffff;
+    --preto:#000000;
+
+    --destaque:#333131;
+
+    --primaria:#523D2A;
+    --secundaria:#ECB074;
+    --terciaria:#364041;
+
+    /* ==== Fontes ==== */
+    --fonte: 'Roboto', sans-serif;
+
+    /* ==== tamanho Fontes ==== */
+    --texto: 1.25rem;
+    --sub-texto: 1.125rem;
+
+    --titulo: 2.25rem;
+    --titulo-destaque: 2.625rem;
+    --sub-titulo: 1.625rem;
 
     /* ==== Peso Fontes ==== */
     --fina: 100;
-    --baixo: 400;
+    --padrao-regular: 400;
     --medio: 500;
-    --alto: 700;
+    --padrao-bold: 700;
 }
 
