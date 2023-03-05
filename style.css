@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+}
+
+.header_container {
+    background-color: #333131;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.header_content {
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    width: 100%;
+}
+
+.header_logo {
+    background: url(assets/images/Iniciativa-pro-logo3.svg);
+    background-repeat: no-repeat;
+    width: 50%;
+}
+
+.header_menu {
+    color: #FFF;
+}
+
+.main_container {
+    background: #364041;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_container {
+    align-items: center;
+    background: #333131;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_content {
+    font-weight: Weight700;
+    font-size: 11px;;
+}
+
