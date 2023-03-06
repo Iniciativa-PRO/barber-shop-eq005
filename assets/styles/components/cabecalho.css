@@ -1,0 +1,21 @@
+input:checked~ul {
+    display: block;
+}
+
+ul {
+    display: none;
+}
+
+span {
+    background-image: url('../../image/icone_menu_hamburguer.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+}
+
+input:checked~span {
+    background: var(--terciaria);
+}
+
