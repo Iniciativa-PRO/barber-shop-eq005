@@ -1,5 +1,7 @@
 .main_container {
+    background: #364041;
     display: flex;
     justify-content: center;
+    margin: 0px;
     width: 100%;
 }

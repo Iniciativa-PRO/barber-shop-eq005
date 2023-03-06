@@ -1,0 +1,12 @@
+.footer_container {
+    align-items: center;
+    background: #333131;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_content {
+    font-weight: Weight700;
+    font-size: 11px;;
+}
