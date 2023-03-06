@@ -1,0 +1,154 @@
+.services_container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #364041;
+}
+
+.services_title {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    margin-top: 40px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.services_subtitle {
+    color: #ECB074;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    margin-top: 20px;
+}
+
+.services_hairclipper {
+    background: url(../image/hair_clipper_1.svg);
+    background-repeat: no-repeat;
+    height: 115px;
+    left: 151px;
+    margin-top: 40px;
+    width: 74px;
+}
+
+.hairclipper_title {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+.hairclipper_text {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.services_hair {
+    background: url(../image/hair_1.svg);
+    background-repeat: no-repeat;
+    height: 115px;
+    left: 151px;
+    margin-top: 40px;
+    width: 100px;
+}
+
+.services_razor {
+    background: url(../image/razor_1.svg);
+    background-repeat: no-repeat;
+    height: 115px;
+    left: 151px;
+    margin-top: 40px;
+    width: 100px;
+}
+
+.services_scissor {
+    background: url(../image/scissor_1.svg);
+    background-repeat: no-repeat;
+    height: 115px;
+    left: 151px;
+    margin-top: 40px;
+    width: 126px;
+}
+
+.services_prices {
+    background: url(../image/Rectangle_28.svg);
+    background-color: #FFF;
+    height: 510px;
+    margin-top: 40px;
+    width: 300px;
+}
+
+.services_content {
+    background-color:  #333131;
+    border: 1px solid #ECB074;
+    height: 500px;
+    margin: 5px;
+    width: 290px;
+}
+
+.services_title {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 22px;
+    margin-left: 18px;
+}
+
+.services_subtitle {
+    color: #ECB074;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 18px;
+}
+
+.services_price {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 18px; 
+}
+
+.services_description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+    margin-right: 18px;
+}
+
+.services_lineborder {
+    align-items: center;
+    border: 1.5px solid #ECB074;
+    display: flex;
+    justify-content: center;
+    margin: 25px 20px;
+}
+
+.lineborder {
+    border: 0.537042px solid #968787;
+    display: flex;
+    justify-content:flex-start;
+    width: 35%;
+}
+
+.price {
+    color:#ECB074;
+}
