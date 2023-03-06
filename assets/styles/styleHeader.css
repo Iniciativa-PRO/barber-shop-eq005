@@ -18,7 +18,7 @@
     background: url(../image/Iniciativa-pro-logo3.svg);
     background-repeat: no-repeat;
     height: 40px;
-    width: 49%;
+    width: 45%;
 }
 
 .header_menu {
@@ -28,17 +28,28 @@
 
 .menu_button {
     background-color: #333131;
-    border: none;
-    color: #ECB074;
+    border: #333131 solid 2px;
+    color: var(--laranja);
+    cursor: pointer;
+}
+
+.menu_button a {
+    display: block;
+}
+
+.menu_button:hover {
+    color: blue;
 }
 
 .header_menu {
     overflow: hidden;
-    color: #FFF;
+    color: var(--branco);
+    cursor: zoom-out;
 }
 
 .header_links {
     display: none;
-    text-decoration: none; 
+    text-decoration: none;
+    color: var(--laranja);
 }
 

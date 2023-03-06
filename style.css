@@ -1,5 +1,5 @@
-@import url('./abstract/_reset.css');
-@import url('./abstract/_variaveis.css');
+@import url('./styles/abstract/_reset.css');
+@import url('./styles/abstract/_variaveis.css');
 
 * {
     margin: 0px;

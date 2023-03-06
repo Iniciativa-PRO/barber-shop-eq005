@@ -1,6 +1,8 @@
 .main_container {
+    align-items: center;
     background: #364041;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin: 0px;
     width: 100%;
