@@ -3,6 +3,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.services_content {
     background: #364041;
 }
 
@@ -107,7 +110,7 @@
 }
 
 .services_subtitle {
-    color: #ECB074;
+    color: var(--laranja);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -151,4 +154,12 @@
 
 .price {
     color:#ECB074;
+}
+
+.services_pictures {
+    align-items: center;
+    background-color: var(--branco);
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }

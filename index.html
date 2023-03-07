@@ -26,16 +26,26 @@
 <body>
     <header class="header_container">
         <div class="header_content">
-            <div class="header_logo">.</div>
-            <div class="header_menu">
-                <button type="button" id="menu-button" class="menu_button">&#9776;</button>
-                <div id="links" class="header_links">
-                    <a href="#about">Sobre</a>
-                    <a href="#services">Serviços</a>
-                    <a href="#whois">Profissionais</a>
-                    <a href="#scheduler">Agendar</a>
-                    <a href="#local">Localização</a>
-                  </div>
+            <div class="header_cabecalho">
+                <div class="header_logo"></div>
+                <div class="header_local">
+                    <img src="./assets/image/local.svg" alt="Local" width="23" height="30">
+                    <span class="local_text">Avenida Ayrton Senna, 332</span>
+                </div>
+                <div class="header_whats">
+                    <img src="./assets/image/whats.svg" alt="Whats up" width="23" height="30"> 
+                    <span class="local_text">(96) 98337-2561</span>
+                </div>
+                <div class="header_menu">                
+                    <button type="button" id="menu-button" class="menu_button"><h1>&#9776;</h1></button>
+                    <div id="links" class="header_links">
+                        <a href="#about">Sobre</a>
+                        <a href="#services">Serviços</a>
+                        <a href="#whois">Profissionais</a>
+                        <a href="#scheduler">Agendar</a>
+                        <a href="#local">Localização</a>
+                      </div>
+                </div>
             </div>
         </div>
     </header>
@@ -43,8 +53,9 @@
         
         <section class="welcome_container">
             <div class="welcome_title">
-                INICIATIVA PRO BARBERSHOP
+                    INICIATIVA PRO BARBERSHOP
             </div>
+
             <div class="welcome_subtitle">
                 <p>Seja bem vindo a Barbearia Iniciativa PRO,</p>
                 <p>Somos a melhor barbearia da cidade, sinta-</p>
@@ -61,128 +72,136 @@
         </section>
 
         <section class="about_container" id="about">
-            <div class="about_bar"></div>
-            <div class="about_title">Sobre a barbearia</div>
-            <div class="about_subtitle">Seja Bem Vindo a Barbearia</div>
-            <div class="about_text">
-                <p>Seja bem vindo a Barbearia Iniciativa PRO,</p>
-                <p>Somos a melhor barbearia da cidade, sinta-</p>
-                <p>se a vontade em nossas comodações</p>
-                <p>cortes, barbas estilizadas, tingimento de</p>
-                <p>cabelo,Manicure e Podologia, Hidradatação,</p>
-                <p>esfoliação e etc.</p>
-            </div>
-            <div class="about_picture"></div>
-        </section>
-
-        <section class="services_container" id="services">
-            <div class="about_bar"></div>
-            <div class="services_title">Nossos Serviços</div>
-            <div class="services_subtitle">Conheça as especialidades da Casa</div>
-            <div class="services_hairclipper"></div>
-            <div class="hairclipper_title">Maquina</div>
-            <div class="hairclipper_text">
-                <p>Corte de cabelo com apenas</p>
-                <p>uma gradação(um pente) de</p>
-                <p>maquina sem uso de tesoura,</p>
-                <p>mais lavação com Shampoo e</p>
-                <p>Condicionador Iniciativa PRO.</p>
-                <p>Finalização com produtos da</p>
-                <p>linha Iniciativa PRO Barbearia.</p>
-            </div>
-            <div class="services_hair"></div>
-            <div class="hairclipper_title">Cabelo</div>
-            <div class="about_bar"></div>
-            <div class="hairclipper_text">
-                <p>Corte de cabelo com apenas</p>
-                <p>uma gradação(um pente) de</p>
-                <p>maquina sem uso de tesoura,</p>
-                <p>mais lavação com Shampoo e</p>
-                <p>Condicionador Iniciativa PRO.</p>
-                <p>Finalização com produtos da</p>
-                <p>linha Iniciativa PRO Barbearia.</p>
-            </div>
-            <div class="services_razor"></div>
-            <div class="hairclipper_title">Barba</div>
-            <div class="about_bar"></div>
-            <div class="hairclipper_text">
-                <p>Tradicional técnica de</p>
-                <p>barbear somada a uma</p>
-                <p>relaxante toalha quente, óleo</p>
-                <p>pré-shave, espuma de</p>
-                <p>barbear aquecida. Processo</p>
-                <p>finalizado com massagem</p>
-                <p>relaxante para ativar a</p>
-                <p>circulação utilizando a linha</p>
-                <p>de produtos para barba da</p>
-                <p>Iniciativa PRO, After Shave</p>
-                <p>Lotion e Beard Styling Balm.</p>
-            </div>
-
-            <div class="services_scissor"></div>
-            <div class="hairclipper_title">Corte</div>
-            <div class="about_bar"></div>
-            <div class="hairclipper_text">
-                <p>Corte, lavação com Shampoo</p>
-                <p>e Condicionador e finalização</p>
-                <p>com a linha de produtos para</p>
-                <p>cabelo Iniciativa PRO,</p>
-                <p>somados a tradicional técnica</p>
-                <p>de barbear, a uma relaxante</p>
-                <p>toalha quente, óleo pré-</p>
-                <p>tshave, espuma de barbear</p>
-                <p>aquecida, finalizada com a</p>
-                <p>linha de produtos para barba</p>
-                <p>da Iniciativa PRO.</p>             
-            </div>
-            <div class="services_prices">
-                <div class="services_content">
-                    <p class="services_title">Lista de cortes</p>
-                    <p class="services_subtitle">Ajuste de Barba</p>
-                    <div class="services_price">
-                        <p class="services_description">Barba Tradicional <span class="lineborder"></span> 
-                            <span class="price">R$ 30,00</span></p>
-                        <p class="services_description">Cavanhaque <span class="lineborder"></span>
-                            <span class="price">R$ 30,00</span></p>
-                        <p class="services_description">Barba Arredondada <span class="lineborder"></span>
-                            <span class="price">R$ 30,00</span></p>
-                        <p class="services_description">Barba Degradê <span class="lineborder"></span>
-                            <span class="price">R$ 30,00</span></p>
-                        <p class="services_description">Van Dyke <span class="lineborder"></span>
-                            <span class="price">R$ 30,00</span></p>
-                        <p class="services_description">Balbo <span class="lineborder"></span>
-                            <span class="price">R$ 30,00</span></p>
-                        <p class="services_description">Barba Lenhador <span class="lineborder"></span>
-                            <span class="price">R$ 30,00</span></p>
-                    </div>
-
-                    <div class="services_lineborder"></div>
-                    
-                    <p class="services_title">Lista de cortes</p>
-                    <p class="services_subtitle">Cortes clássicos</p>
-                    <div class="services_price">
-                        <p class="services_description">Corte Básico <span class="lineborder"></span> 
-                            <span class="price">R$ 15,00</span></p>
-                        <p class="services_description">Corte com Tesoura <span class="lineborder"></span>
-                            <span class="price">R$ 30,00</span></p>
-                        <p class="services_description">Corte Texturiazado <span class="lineborder"></span>
-                            <span class="price">R$ 30,00</span></p>
-                        <p class="services_description">Corte Militar <span class="lineborder"></span>
-                            <span class="price">R$ 30,00</span></p>
-                        <p class="services_description">French Crop <span class="lineborder"></span>
-                            <span class="price">R$ 30,00</span></p>
-                        <p class="services_description">Side parting <span class="lineborder"></span>
-                            <span class="price">R$ 30,00</span></p>
-                        <p class="services_description">Shaped Afro <span class="lineborder"></span>
-                            <span class="price">R$ 30,00</span></p>
-                    </div>
-
+            <div class="about_content">
+                <div class="about_bar"></div>
+                <div class="about_title">Sobre a barbearia</div>
+                <div class="about_subtitle">Seja Bem Vindo a Barbearia</div>
+                <div class="about_text">
+                    <p>Seja bem vindo a Barbearia Iniciativa PRO,</p>
+                    <p>Somos a melhor barbearia da cidade, sinta-</p>
+                    <p>se a vontade em nossas comodações</p>
+                    <p>cortes, barbas estilizadas, tingimento de</p>
+                    <p>cabelo,Manicure e Podologia, Hidradatação,</p>
+                    <p>esfoliação e etc.</p>
                 </div>
+                <div class="about_picture"></div>
+            </section>
+    
+            <section class="services_container" id="services">
+
+                    <div class="about_bar"></div>
+                    <div class="services_title">Nossos Serviços</div>
+                    <div class="services_subtitle">Conheça as especialidades da Casa</div>
+                    <div class="services_hairclipper"></div>
+                    <div class="hairclipper_title">Maquina</div>
+                    <div class="hairclipper_text">
+                        <p>Corte de cabelo com apenas</p>
+                        <p>uma gradação(um pente) de</p>
+                        <p>maquina sem uso de tesoura,</p>
+                        <p>mais lavação com Shampoo e</p>
+                        <p>Condicionador Iniciativa PRO.</p>
+                        <p>Finalização com produtos da</p>
+                        <p>linha Iniciativa PRO Barbearia.</p>
+                    </div>
+                    <div class="services_hair"></div>
+                    <div class="hairclipper_title">Cabelo</div>
+                    <div class="about_bar"></div>
+                    <div class="hairclipper_text">
+                        <p>Corte de cabelo com apenas</p>
+                        <p>uma gradação(um pente) de</p>
+                        <p>maquina sem uso de tesoura,</p>
+                        <p>mais lavação com Shampoo e</p>
+                        <p>Condicionador Iniciativa PRO.</p>
+                        <p>Finalização com produtos da</p>
+                        <p>linha Iniciativa PRO Barbearia.</p>
+                    </div>
+                    <div class="services_razor"></div>
+                    <div class="hairclipper_title">Barba</div>
+                    <div class="about_bar"></div>
+                    <div class="hairclipper_text">
+                        <p>Tradicional técnica de</p>
+                        <p>barbear somada a uma</p>
+                        <p>relaxante toalha quente, óleo</p>
+                        <p>pré-shave, espuma de</p>
+                        <p>barbear aquecida. Processo</p>
+                        <p>finalizado com massagem</p>
+                        <p>relaxante para ativar a</p>
+                        <p>circulação utilizando a linha</p>
+                        <p>de produtos para barba da</p>
+                        <p>Iniciativa PRO, After Shave</p>
+                        <p>Lotion e Beard Styling Balm.</p>
+                    </div>
+        
+                    <div class="services_scissor"></div>
+                    <div class="hairclipper_title">Corte</div>
+                    <div class="about_bar"></div>
+                    <div class="hairclipper_text">
+                        <p>Corte, lavação com Shampoo</p>
+                        <p>e Condicionador e finalização</p>
+                        <p>com a linha de produtos para</p>
+                        <p>cabelo Iniciativa PRO,</p>
+                        <p>somados a tradicional técnica</p>
+                        <p>de barbear, a uma relaxante</p>
+                        <p>toalha quente, óleo pré-</p>
+                        <p>tshave, espuma de barbear</p>
+                        <p>aquecida, finalizada com a</p>
+                        <p>linha de produtos para barba</p>
+                        <p>da Iniciativa PRO.</p>             
+                    </div>
+                    <div class="services_prices">
+                        <div class="services_content">
+                            <p class="services_title">Lista de cortes</p>
+                            <p class="services_subtitle">Ajuste de Barba</p>
+                            <div class="services_price">
+                                <p class="services_description">Barba Tradicional <span class="lineborder"></span> 
+                                    <span class="price">R$ 30,00</span></p>
+                                <p class="services_description">Cavanhaque <span class="lineborder"></span>
+                                    <span class="price">R$ 30,00</span></p>
+                                <p class="services_description">Barba Arredondada <span class="lineborder"></span>
+                                    <span class="price">R$ 30,00</span></p>
+                                <p class="services_description">Barba Degradê <span class="lineborder"></span>
+                                    <span class="price">R$ 30,00</span></p>
+                                <p class="services_description">Van Dyke <span class="lineborder"></span>
+                                    <span class="price">R$ 30,00</span></p>
+                                <p class="services_description">Balbo <span class="lineborder"></span>
+                                    <span class="price">R$ 30,00</span></p>
+                                <p class="services_description">Barba Lenhador <span class="lineborder"></span>
+                                    <span class="price">R$ 30,00</span></p>
+                            </div>
+        
+                            <div class="services_lineborder"></div>
+                            
+                            <p class="services_title">Lista de cortes</p>
+                            <p class="services_subtitle">Cortes clássicos</p>
+                            <div class="services_price">
+                                <p class="services_description">Corte Básico <span class="lineborder"></span> 
+                                    <span class="price">R$ 15,00</span></p>
+                                <p class="services_description">Corte com Tesoura <span class="lineborder"></span>
+                                    <span class="price">R$ 30,00</span></p>
+                                <p class="services_description">Corte Texturiazado <span class="lineborder"></span>
+                                    <span class="price">R$ 30,00</span></p>
+                                <p class="services_description">Corte Militar <span class="lineborder"></span>
+                                    <span class="price">R$ 30,00</span></p>
+                                <p class="services_description">French Crop <span class="lineborder"></span>
+                                    <span class="price">R$ 30,00</span></p>
+                                <p class="services_description">Side parting <span class="lineborder"></span>
+                                    <span class="price">R$ 30,00</span></p>
+                                <p class="services_description">Shaped Afro <span class="lineborder"></span>
+                                    <span class="price">R$ 30,00</span></p>
+                            </div>
+        
+                        </div>
+                    </div>
+                </div>   
+
+
+            <div class="services_pictures">
+                <div class="about_bar"></div>
             </div>
         </section>
 
         <section class="whois_container" id="whois">
-
+            <div class="about_bar"></div>
         </section>
         <section class="scheduler_container" id="scheduler">
 

@@ -1,0 +1,8 @@
+.whois_container {
+    align-items: center;
+    background-color: var(--branco);
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    width: 100%;
+}

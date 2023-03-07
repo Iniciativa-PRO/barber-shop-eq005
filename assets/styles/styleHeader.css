@@ -1,24 +1,70 @@
 .header_container {
-    background-color: #333131;
-    display: flex;
-    justify-content: center;
     align-items: center;
-    height: 60px;
+    display: flex;
 }
 
 .header_content {
-    background-color: #333131;
+    background: url(../image/banner.svg);
+    background-repeat: no-repeat;
     display: flex;
-    justify-content:flex-end;
+    height: 758px;
+    justify-content:space-between;
+    width: 100%;
+}
+
+.header_cabecalho {
     align-items: center;
+    display: flex;
+    height: 145px;
+    justify-content:space-between;
     width: 100%;
 }
 
 .header_logo {
-    background: url(../image/Iniciativa-pro-logo3.svg);
+    background: url(../image/Iniciativa-pro-logo1.svg);
     background-repeat: no-repeat;
+    height: 142px;
+    margin-top: 16px;
+    margin-left: 126px;
+    width: 173px;
+}
+
+.header_info {
+    align-items: center;
+    color: var(--branco);
+    display: flex;
+    width: 700px;
+}
+
+.header_local {
+    padding: 2px;
+}
+
+.local_icon {
+    background: url(../image/local.svg);
+    background-repeat: no-repeat;
+    color: var(--branco);
     height: 40px;
-    width: 45%;
+    width: 320px;
+}
+
+.local_text {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.header_whats {
+    padding: 2px;
+}
+
+.whats_icon {
+    background: url(../image/whats.svg);
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 320px;
 }
 
 .header_menu {
@@ -31,10 +77,14 @@
     border: #333131 solid 2px;
     color: var(--laranja);
     cursor: pointer;
+    height: 45px;
+    width: 30px;
 }
 
-.menu_button a {
+.menu_button a h1{
     display: block;
+    height: 45px;
+    width: 30px;
 }
 
 .menu_button:hover {
@@ -53,3 +103,68 @@
     color: var(--laranja);
 }
 
+@media only screen and (max-width: 768px) {
+    .header_container {
+        align-items: center;
+        background-color: #333131;
+        display: flex;
+        height: 60px;
+        justify-content: center;
+    }
+    
+    .header_content {
+        align-items: center;
+        background: none;
+        display: flex;
+        justify-content:flex-end;
+        width: 100%;
+    }
+    
+    .header_logo {
+        background: url(../image/Iniciativa-pro-logo3.svg);
+        background-repeat: no-repeat;
+        height: 40px;
+        width: 45%;
+    }
+
+    .header_local {
+        display: none;
+    }
+
+    .header_whats {
+        display: none;
+    }
+    
+    .header_menu {
+        color:#333131;
+        margin-right: 20px;
+    }
+    
+    .menu_button {
+        background-color: #333131;
+        border: #333131 solid 2px;
+        color: var(--laranja);
+        cursor: pointer;
+    }
+    
+    .menu_button a {
+        display: block;
+    
+    }
+    
+    .menu_button:hover {
+        color: blue;
+    }
+    
+    .header_menu {
+        overflow: hidden;
+        color: var(--branco);
+        cursor: zoom-out;
+    }
+    
+    .header_links {
+        display: none;
+        text-decoration: none;
+        color: var(--laranja);
+    }
+}

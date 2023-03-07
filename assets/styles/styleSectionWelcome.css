@@ -31,3 +31,31 @@
     margin-right: 10px;
     text-align: center;
 }
+
+
+@media only screen and (min-width: 768px) {
+
+    .welcome_container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .welcome_title {
+        color: #ECB074;
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    
+    .welcome_subtitle {
+        margin: 0px;
+    }
+    
+}
