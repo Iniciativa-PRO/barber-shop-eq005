@@ -1,170 +1,170 @@
 .header_container {
-    align-items: center;
-    display: flex;
-}
+  display: flex;
+  height: 758px;
+  justify-content: center;
+  width: 100%;
+} 
 
 .header_content {
-    background: url(../image/banner.svg);
-    background-repeat: no-repeat;
-    display: flex;
-    height: 758px;
-    justify-content:space-between;
-    width: 100%;
+  background: url(../image/banner.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  height: 758px;
+  width: 100%;
 }
 
 .header_cabecalho {
-    align-items: center;
-    display: flex;
-    height: 145px;
-    justify-content:space-between;
-    width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 145px;
+  margin-top: 16px;
+  width: 100%;
 }
 
 .header_logo {
-    background: url(../image/Iniciativa-pro-logo1.svg);
-    background-repeat: no-repeat;
-    height: 142px;
-    margin-top: 16px;
-    margin-left: 126px;
-    width: 173px;
+  margin-left: 50px;
+}
+
+.img_logo {
+  height: 140px;
+  width: 173px;
 }
 
 .header_info {
-    align-items: center;
-    color: var(--branco);
-    display: flex;
-    width: 700px;
+  margin-top: 16px;
+  margin-left: 20px;
 }
 
-.header_local {
-    padding: 2px;
-}
-
-.local_icon {
-    background: url(../image/local.svg);
-    background-repeat: no-repeat;
-    color: var(--branco);
-    height: 40px;
-    width: 320px;
+.img_info {
+  height: 30px;
+  margin-left: 20px;
+  width: 26px;
 }
 
 .local_text {
-    color: #FFFFFF;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-}
-
-.header_whats {
-    padding: 2px;
-}
-
-.whats_icon {
-    background: url(../image/whats.svg);
-    background-repeat: no-repeat;
-    height: 60px;
-    width: 320px;
+  color: #FFFFFF;  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .header_menu {
-    color:#333131;
-    margin-right: 20px;
+  margin-left: 40px;
 }
 
-.menu_button {
-    background-color: #333131;
-    border: #333131 solid 2px;
-    color: var(--laranja);
-    cursor: pointer;
-    height: 45px;
-    width: 30px;
-}
-
-.menu_button a h1{
+.menu_hamburger {
+    width: 50px;
+    height: 50px;
     display: block;
-    height: 45px;
+    border: none;
+    padding: 0px;
+    margin-top: 20px;
+    background: linear-gradient(
+      to bottom, 
+      var(--laranja), var(--laranja) 20%, 
+      #333131 20%, #333131 40%, 
+      var(--laranja) 40%, var(--laranja) 60%, 
+      #333131 60%, #333131 80%, 
+      var(--laranja) 80%, var(--laranja) 100%
+    );
+}
+
+.menu_hamburger .menu_bar {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 200px;
+  height: 100%;
+  background-color: #3D0E61;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 996px) {
+  
+  .header_cabecalho {
+    height: 110px;
+    margin-top: 16px;
+    width: 100%;
+  }
+  
+  .header_logo {
+    margin-left: 10px;
+  }
+
+  .img_logo {
+    height: 107px;
+    margin-left: 10px;
+    width: 120px;
+  }
+
+  .header_info {
+    margin-left: 40px;
+  }
+
+  .img_info {
+    height: 18px;
+    margin-left: 20px;
+    width: 15px;
+  }
+
+  .local_text {
+    font-size: 12px;
+  }
+
+  .menu_hamburger {
     width: 30px;
+    height: 30px;
+  }
 }
 
-.menu_button:hover {
-    color: blue;
-}
+@media only screen and (max-width: 576px) {
 
-.header_menu {
-    overflow: hidden;
-    color: var(--branco);
-    cursor: zoom-out;
-}
+  .header_content {
+    background: none;
+    height: 375px;
+  }
+  
+  .header_cabecalho {
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    height: 76px;
+    width: 100%;
+  }
 
-.header_links {
+  .header_logo {
+    align-items: center;
+    margin: 0px;
+  }
+  
+  .img_logo {
+    height: 36px;
+    width: 40px;
+  }
+
+  .header_info {
     display: none;
-    text-decoration: none;
-    color: var(--laranja);
-}
+  }
 
-@media only screen and (max-width: 768px) {
-    .header_container {
-        align-items: center;
-        background-color: #333131;
-        display: flex;
-        height: 60px;
-        justify-content: center;
-    }
-    
-    .header_content {
-        align-items: center;
-        background: none;
-        display: flex;
-        justify-content:flex-end;
-        width: 100%;
-    }
-    
-    .header_logo {
-        background: url(../image/Iniciativa-pro-logo3.svg);
-        background-repeat: no-repeat;
-        height: 40px;
-        width: 45%;
-    }
+  .header_menu {
+    margin-left: 0px;
+    justify-content: flex-end;
+    width: 60px
+  }
 
-    .header_local {
-        display: none;
-    }
+  .header_button {
+    justify-content: flex-end;
+    height: 60px;
+    width: 100%;
+  }
 
-    .header_whats {
-        display: none;
-    }
-    
-    .header_menu {
-        color:#333131;
-        margin-right: 20px;
-    }
-    
-    .menu_button {
-        background-color: #333131;
-        border: #333131 solid 2px;
-        color: var(--laranja);
-        cursor: pointer;
-    }
-    
-    .menu_button a {
-        display: block;
-    
-    }
-    
-    .menu_button:hover {
-        color: blue;
-    }
-    
-    .header_menu {
-        overflow: hidden;
-        color: var(--branco);
-        cursor: zoom-out;
-    }
-    
-    .header_links {
-        display: none;
-        text-decoration: none;
-        color: var(--laranja);
-    }
+  .menu_hamburger {
+    width: 20px;
+    height: 20px;
+  }
+
 }
