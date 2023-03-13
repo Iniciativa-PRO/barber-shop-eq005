@@ -15,10 +15,10 @@
 }
 
 .about_info {
-    align-items:flex-start;
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content: space-between;
     margin-left: 20px;
 }
 
@@ -28,11 +28,39 @@
 }
 
 .about_banner {
+    align-items: center;
     background: url("../image/bannerAbout.svg");
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
     height: 333px;
+    justify-content: center;
     width: 100%;
 }
+
+.banner_aspas {
+    height: 75px;
+    margin-left: 40px;
+    margin-top: 160px;
+    width: 75px;
+}
+
+.aspas_title {
+    color: var(--branco);
+    font-weight: 700;
+    font-size: 26px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.aspas_subtitle {
+    color: var(--laranja);
+    font-weight: 400;
+    font-size: 26px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
 
 .about_bar {
     border: 3px solid #ECB074;
@@ -80,6 +108,20 @@
     width: 210px;
 }
 
+@media only screen and (max-width: 1064px) {
+
+    .banner_aspas {
+        display: none;
+    }
+
+    .aspas_title {
+        margin-top: 220px;
+    }
+    
+    .aspas_subtitle {
+        margin-top: 10px;
+    }
+}
 
 @media only screen and (max-width: 768px) {
 
@@ -88,6 +130,7 @@
     }
 
     .about_banner {
-        height: 223px;
+        display: none;
     }
+
 }
