@@ -9,14 +9,19 @@
     background: #364041;
 }
 
+.service_bar {
+    border: 3px solid #ECB074;
+    margin-top: 40px;
+    width: 50px;
+}
+
 .services_title {
-    color: #FFFFFF;
+    color: var(--branco);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 21px;
-    margin-top: 40px;
-    transform: matrix(1, 0, 0, 1, 0, 0);
+    margin-top: 10px;
 }
 
 .services_subtitle {
@@ -24,109 +29,82 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 21px;
+    font-size: 36px;
     margin-top: 20px;
 }
 
-.services_hairclipper {
-    background: url(../image/hair_clipper_1.svg);
-    background-repeat: no-repeat;
-    height: 115px;
-    left: 151px;
-    margin-top: 40px;
-    width: 74px;
+.services_about {
+    align-items: baseline;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
 
-.hairclipper_title {
-    color: #FFFFFF;
-    font-family: 'Roboto';
+.service_image {
+    height: 120px;
+    margin-top: 100px;
+    width: 100px;
+}
+
+.service_title {
+    color: var(--branco);
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    margin-top: 10px;
 }
 
-.hairclipper_text {
-    color: #FFFFFF;
+.service_text {
+    color: var(--branco);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
 }
 
-.services_hair {
-    background: url(../image/hair_1.svg);
-    background-repeat: no-repeat;
-    height: 115px;
+.services_figure {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     left: 151px;
-    margin-top: 40px;
-    width: 100px;
-}
-
-.services_razor {
-    background: url(../image/razor_1.svg);
-    background-repeat: no-repeat;
-    height: 115px;
-    left: 151px;
-    margin-top: 40px;
-    width: 100px;
-}
-
-.services_scissor {
-    background: url(../image/scissor_1.svg);
-    background-repeat: no-repeat;
-    height: 115px;
-    left: 151px;
-    margin-top: 40px;
-    width: 126px;
 }
 
 .services_prices {
+    align-items: center;
     background: url(../image/Rectangle_28.svg);
-    background-color: #FFF;
-    height: 510px;
+    background-color: var(--branco);
+    display: flex;
+    height: 520px;
+    justify-content: center;
     margin-top: 40px;
-    width: 300px;
 }
 
 .services_content {
-    background-color:  #333131;
-    border: 1px solid #ECB074;
-    height: 500px;
+    background-color:  var(--cinza);
+    border: 1px solid var(--laranja);
+    display: flex;
+    height: 520px;
+    width: 1171px;
     margin: 5px;
-    width: 290px;
 }
 
-.services_title {
-    color: #FFFFFF;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    margin-top: 22px;
-    margin-left: 18px;
+.service_classic {
+    margin-left: 40px;
 }
 
-.services_subtitle {
-    color: var(--laranja);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    margin-top: 10px;
-    margin-left: 18px;
+.service_beard {
+    margin-left: 30px;
 }
 
 .services_price {
-    color: #FFFFFF;
-    font-family: 'Roboto';
+    color: var(--branco);
     font-style: normal;
     font-weight: 700;
-    font-size: 12px;
-    margin-top: 10px;
-    margin-left: 18px; 
+    font-size: 23px;
+    margin-top: 20px;
+    width: 520px;
 }
 
 .services_description {
@@ -162,4 +140,59 @@
     display: flex;
     justify-content: center;
     width: 100%;
+}
+
+@media only screen and (max-width: 1064px) {
+    
+    .service_bar {
+        border: 2px solid #ECB074;
+        margin-top: 20px;
+        width: 50px;
+    }
+
+    .services_title {
+        font-size: 21px;
+    }
+    
+    .services_subtitle {
+        font-size: 26px;
+    }
+
+    .service_image {
+        height: 90px;
+        width: 65px;
+    }
+    
+    .service_text {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    .service_bar {
+        border: 1px solid #ECB074;
+        margin-top: 10px;
+        width: 50px;
+    }
+
+    .services_title {
+        font-size: 21px;
+    }
+    
+    .services_subtitle {
+        font-size: 18px;
+    }
+
+    .services_about {
+        align-items: center;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .service_image {
+        margin-top: 30px;
+    }
 }
