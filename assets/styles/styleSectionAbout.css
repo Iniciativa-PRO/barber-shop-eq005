@@ -1,9 +1,8 @@
 .about_container {
     align-items: center;
-    background-color: #FFF;
+    background-color: var(--branco);
     display: flex;
     flex-direction: column;
-    margin-top: 80px;
     width: 100%;
 }
 
@@ -64,7 +63,6 @@
 
 .about_bar {
     border: 3px solid #ECB074;
-    margin-top: 40px;
     width: 50px;
 }
 
@@ -100,7 +98,7 @@
 .about_picture {
     background: url(../image/Barbershop.svg);
     background-repeat: no-repeat;
-    border: 2px solid #000000;
+    border: 2px solid var(--preto);
     height: 198px;
     left: 83px;
     margin-top: 40px;

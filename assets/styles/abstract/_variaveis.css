@@ -1,9 +1,11 @@
 :root {
     /* ==== Cores ==== */	
+    --azul: rgb(19, 61, 245);
+    --cinza: #333131;
     --branco: #ffffff;
     --laranja: #ECB074;
-    --cinza: #333131;
-    --azul: rgb(19, 61, 245);
+    --preto: #000000;
+
 
     /* ==== Peso Fontes ==== */
     --fina: 100;

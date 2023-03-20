@@ -1,23 +1,47 @@
+.service_main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.main_about {
+    background: var(--cinza);
+    height: 917px;
+    width: 100%;
+}
+
+
+.main_board {
+    background: var(--branco);
+    height: 260px;
+    margin-top: 700px;
+    position: absolute;
+}
+
 .services_container {
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
 }
 
 .services_content {
-    background: #364041;
+    background: var(--cinza);
+    height: 900px;
 }
 
 .service_bar {
-    border: 3px solid #ECB074;
+    border: 3px solid var(--laranja);
     margin-top: 40px;
     width: 50px;
 }
 
 .services_title {
     color: var(--branco);
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 21px;
@@ -25,8 +49,7 @@
 }
 
 .services_subtitle {
-    color: #ECB074;
-    font-family: 'Roboto';
+    color: var(--laranja);
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -38,6 +61,7 @@
     display: flex;
     justify-content: space-around;
     width: 100%;
+    background: linear-gradient(180deg, var(--cinza); 99.99%, rgba(201, 201, 201, 0) 100%);
 }
 
 .service_image {
@@ -76,9 +100,9 @@
     background: url(../image/Rectangle_28.svg);
     background-color: var(--branco);
     display: flex;
-    height: 520px;
+    height: 540px;
     justify-content: center;
-    margin-top: 40px;
+
 }
 
 .services_content {
@@ -87,7 +111,7 @@
     display: flex;
     height: 520px;
     width: 1171px;
-    margin: 5px;
+    margin: 10px;
 }
 
 .service_classic {
@@ -95,7 +119,9 @@
 }
 
 .service_beard {
+    margin-top: 100px;
     margin-left: 30px;
+    width: 520px;
 }
 
 .services_price {
@@ -117,7 +143,7 @@
 
 .services_lineborder {
     align-items: center;
-    border: 1.5px solid #ECB074;
+    border: 1.5px solid var(--laranja);
     display: flex;
     justify-content: center;
     margin: 25px 20px;
@@ -131,7 +157,7 @@
 }
 
 .price {
-    color:#ECB074;
+    color: var(--laranja);
 }
 
 .services_pictures {
@@ -142,10 +168,78 @@
     width: 100%;
 }
 
+.photos_container {
+    align-items: center;
+    background-color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-top: 340px;
+}
+
+.photos_title {
+    padding: 40px;
+}
+
+.photos_text {
+    color: var(--preto);
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.photos_subtext {
+    text-align: center;
+    color:var(--laranja);
+    font-weight: 700;
+    font-size: 42px;
+    margin-top: 20px;
+}
+
+.photos_container {
+    width: 100%;
+}
+
+.photos_content {
+    background-color: var(--branco);
+}
+
+.photos_carousel {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.photos_carousel .carousel_item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.carousel .slide_in {
+    -webkit-transform: translate3d(-90%, 0px, 0px);
+    -moz-transform: translate3d(-90%, 0px, 0px);
+    -ms-transform: translate3d(-90%, 0px, 0px);
+    -o-transform: translate(-90%, 0px, 0px);
+    transform: translate3d(-90%, 0px, 0px);
+    -webkit-transition: -webkit-transform 0.5s ease-out;
+    -moz-transition: -moz-transform 0.5s ease-out;
+    -ms-transition: -ms-transform 0.5s ease-out;
+    -o-transition: -o-transform 0.5s ease-out;
+    transition: transform 0.5s ease-out;
+    z-index: 1;
+}
+
 @media only screen and (max-width: 1064px) {
     
     .service_bar {
-        border: 2px solid #ECB074;
+        border: 2px solid var(--laranja);
         margin-top: 20px;
         width: 50px;
     }
@@ -171,7 +265,7 @@
 @media only screen and (max-width: 576px) {
 
     .service_bar {
-        border: 1px solid #ECB074;
+        border: 1px solid var(--laranja);
         margin-top: 10px;
         width: 50px;
     }

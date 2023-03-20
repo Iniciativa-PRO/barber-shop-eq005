@@ -1,6 +1,6 @@
 .main_container {
     align-items: center;
-    background: #364041;
+    background: var(--branco);
     display: flex;
     flex-direction: column;
     justify-content: center;
