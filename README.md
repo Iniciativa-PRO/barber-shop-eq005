@@ -46,3 +46,5 @@ Somos uma equipe formada por alunos da Turma 3 do Programa Oracle Next Education
 - Antonio Alves do Rosário Junior (Arjios) · [GitHub](https://www.github.com/arjios)
   
 - Victor Hugo Ferreira da Silva (EuVictorhfs) · [GitHub](https://www.github.com/euvictorhfs) · [LinkedIn](https://www.linkedin.com/in/victorhfs)
+
+- Rafael Camilo de Oliveira (Rafael-co) · [GitHub](https://github.com/Rafael-co) · [LinkedIn](https://www.linkedin.com/in/rafael-camilo-developer)
