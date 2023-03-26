@@ -1,0 +1,10 @@
+.banner__image {
+    display: none;
+    object-fit: cover;
+}
+
+@media ( min-width: 768px ) {
+    .banner__image {
+        display: block;
+    }
+}

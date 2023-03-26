@@ -1,0 +1,16 @@
+/* Icons */
+.icon {
+    content: "";
+}
+
+.icon--hamburguer::before {
+    content: url('../../../image/icone_menu_hamburguer.svg');
+}
+
+.icon--local::before {
+    content: url('../../../image/icone_localizacao.svg');
+}
+
+.icon--telefone::before {
+    content: url('../../../image/icone_contato_telefone.svg');
+}

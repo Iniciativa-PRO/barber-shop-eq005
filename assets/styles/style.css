@@ -4,7 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
 
 @import url('./components/container.css');
+@import url('./components/icon/icon.css');
 @import url('./components/cabecalho.css');
+@import url('./components/banner.css');
 
 body {
     background: var(--branco);
@@ -12,5 +14,23 @@ body {
     font-family: var(--fonte);
     font-size: var(--texto);
     font-weight: var(--padrao-regular);
+    max-width: 375px;
+    max-height: 9250px;
+    width: 100vw;
 }
+
+@media screen and (min-width: 768px) {
+    body {
+        max-width: 768px;
+        max-height: 4398px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        max-width: 1440px;
+        max-height: 7018px;
+    }
+}
+
 
