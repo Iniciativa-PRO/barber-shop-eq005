@@ -1,6 +1,8 @@
 .schedule_container {
+    align-items: center;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     height: 335;
     margin-top: 40px;
     width: 100%;
@@ -47,5 +49,44 @@
     font-weight: 700;
     font-size: 20px;
     text-align: center;
+}
+
+.schedule_info {
+    align-items: center;
+    background: var(--cinza);
+    display: flex;
+    height: 869px;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.schedule_barber {
+    align-items: center;
+    background-color: var(--cinza);
+    display: flex;
+    height: 420px;
+    justify-content: space-around;
+    padding: 40px;
+    width: 371px;
+}
+
+.barber_container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.barber_photos {
+    margin-left: 40px;
+}
+
+.barber_name {
+    color: var(--laranja);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 25px;
 }
 
