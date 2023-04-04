@@ -1,0 +1,90 @@
+.form_container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.form_info {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form_bar {
+    justify-content: center;
+    border: 3px solid var(--preto);
+    width: 50px;
+}
+
+.form_title {
+    margin-top: 30px;
+    color: var(--preto);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.form_subtitle {
+    margin-top: 40px;
+    color: var(--preto);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+}
+
+.form_fields {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.form_data {
+    align-items: baseline;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.form_label {
+    align-items:baseline;
+    display: flex;
+    justify-content:flex-start;
+}
+
+.form_input {
+    background: var(--branco);
+    border: 2px solid var(--laranja);
+    box-sizing: border-box;
+    width: 300px;
+}
+
+.form_name {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 40px;
+    width: 370px;
+}
+
+.input_label {
+    margin-left: 10px;
+    color: var(--preto);
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.field_name {
+    background-color: var(--branco);
+    width: 300px;
+}
+
+
+.field_list {
+    background-color: var(--branco);
+    width: 100%;
+}
